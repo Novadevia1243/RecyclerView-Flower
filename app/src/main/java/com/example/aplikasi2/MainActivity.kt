@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val list = findViewById<RecyclerView>(R.id.flower_list)
+        val list = findViewById<RecyclerView>(R.id.tanaman_list)
         initData()
 
         list.layoutManager = LinearLayoutManager(this)
@@ -22,8 +22,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initData(){
-        val name = resources.getStringArray(R.array.flower_name)
-        val image = resources.obtainTypedArray(R.array.flower_image)
+        val name = resources.getStringArray(R.array.tanaman_name)
+        val image = resources.obtainTypedArray(R.array.tanaman_image)
 
         items.clear()
 

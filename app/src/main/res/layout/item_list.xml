@@ -11,7 +11,7 @@
         android:id="@+id/image"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:src="@drawable/b_mawar"/>
+        android:src="@drawable/matahari"/>
 
     <TextView
         android:id="@+id/name"
@@ -19,6 +19,6 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:layout_gravity="center_vertical"
-        tools:text="Bunga Mawar"/>
+        tools:text="Bunga Matahari"/>
 
 </LinearLayout>
